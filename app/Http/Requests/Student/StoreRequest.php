@@ -32,7 +32,7 @@ class StoreRequest extends FormRequest
             "father_name" => "required|string|min:3|max:50",
             "mother_name" => "required|string|min:3|max:50",
             "phone_no" => 'required|digits:10',
-            "class" => "required|string|min:2|max:100",
+            "class" => "required|string|min:2|max:50",
             "roll_no" => "required|string|min:2|max:100",
             'dob' => 'required',
             "address" => "required|string|min:30|max:300",
