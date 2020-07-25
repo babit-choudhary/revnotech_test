@@ -27,7 +27,7 @@
                                 
     <div class="btn-group" role="group" aria-label="View Student">
         <a href="{{ route('students.show', $student) }}" data-toggle="tooltip" data-placement="top" title="View" class="btn btn-info">
-            <i class="fas fa-eye"></i>
+            <i class="fa fa-eye"></i>
         </a>     
     </div></td>
                             </tr>

@@ -5,7 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('View Student') }}</div>
+                <div class="card-header">{{ __('View Student') }} <a href="{{ route('students.index') }}" data-toggle="tooltip" data-placement="top" title="Students" class="btn btn-info float-right" >
+            <i class="fa fa-arrow-left"></i>
+        </a></div>
 
                 <div class="card-body">
                    <div class="row mt-4 mb-4">

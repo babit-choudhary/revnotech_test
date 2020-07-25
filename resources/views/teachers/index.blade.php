@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Teachers') }}<a href="{{ route('teachers.create') }}" data-toggle="tooltip" data-placement="top" title="Add Teacher" class="btn btn-info float-right" >
-            <i class="fas fa-eye"></i>
+            <i class="fa fa-plus"></i>
         </a></div>
 
                 <div class="card-body">

@@ -5,7 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Add Teacher') }}</div>
+                <div class="card-header">{{ __('Add Teacher') }}<a href="{{ route('teachers.index') }}" data-toggle="tooltip" data-placement="top" title="Students" class="btn btn-info float-right" >
+            <i class="fa fa-arrow-left"></i>
+        </a></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('teachers.store') }}">

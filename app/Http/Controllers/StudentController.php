@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 use App\Exceptions\GeneralException;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Student\StoreRequest;
-use App\Http\Requests\Student\UpdateRequest;
 
 /**
  * Class StudentController.
@@ -92,14 +91,14 @@ class StudentController extends Controller
     }
 
     /**
-     * @param UpdateRequest $request
+     * @param StoreRequest $request
      * @param Student     $student
      *
      * @throws \App\Exceptions\GeneralException
      * @throws \Throwable
      * @return mixed
      */
-    public function update(UpdateRequest $request, Student $student)
+    public function update(StoreRequest $request, Student $student)
     {
        
         if(!$student->update($request->only(

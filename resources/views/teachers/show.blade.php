@@ -5,17 +5,19 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('View Teacher') }}</div>
+                <div class="card-header">{{ __('View Teacher') }}<a href="{{ route('teachers.index') }}" data-toggle="tooltip" data-placement="top" title="Teachers" class="btn btn-info float-right" >
+            <i class="fa fa-arrow-left"></i>
+        </a></div>
 
                 <div class="card-body">
                    <div class="row mt-4 mb-4">
             <div class="col">
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-expanded="true"><i class="fas fa-user"></i> Teacher</a>
+                        <a class="nav-link active" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-expanded="true"><i class="fa fa-user"></i> Teacher</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#students" role="tab" aria-controls="students" ><i class="fas fa-users"></i> Students</a>
+                        <a class="nav-link" data-toggle="tab" href="#students" role="tab" aria-controls="students" ><i class="fa fa-users"></i> Students</a>
                     </li>
                 </ul>
 
