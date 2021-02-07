@@ -25,4 +25,5 @@ Route::post('file-upload', 'Controller@imageUpload')->name('file-upload');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('teachers', 'TeacherController');
 Route::resource('students', 'StudentController');
+Route::get('/getImage','HomeController@getImage');
 
