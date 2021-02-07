@@ -46,8 +46,6 @@ class TeacherController extends Controller
      */
     public function store(StoreRequest $request)
     {
-        //dd($request->all());
-       
         if(!Teacher::create($request->only(
             'name',
             'subject',
