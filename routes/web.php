@@ -26,4 +26,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('teachers', 'TeacherController');
 Route::resource('students', 'StudentController');
 Route::get('/getImage','HomeController@getImage');
+Route::post('/postImage','HomeController@postImage');
+Route::get('/dImage','HomeController@dImage');
 
